@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Poppins;	
+    background: #F9F9F9;
+}
+
+.wrapper {
+	width: 100%;
+	margin: auto;
+}
+
+.bg-gradient{
+    background: linear-gradient(to left,#3FD0B6 ,#55de59);
+    width: 100%;
+    height: 400px;
+    padding: 60px 80px;
+    color: #fff;
+}
+
+.bg-profile{
+    width: 100%;
+    height: 150vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-detail{
+    width: 60%;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px 30px;
+    color: #000;
+}
+
+.bg-detail h3{
+    margin-top: 20px;
+}
+
+.bg-form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.isi{
+    width: 48%;
+}
+.isi2{
+    width: 100%;
+}
+.isi3{
+    width: 29%;
+}
+
+.form{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #aaaaaa;
+    padding: 20px 10px;
+    border-radius: 8px;
+}
+
+.profile{   
+    width: 35%;
+    height: 115vh;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    padding: 0px 30px;
+}
+
+.pic{
+    right: 180px;
+    top: -50px;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.balance{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.balance-detail{
+    color: black;
+}
+
+.balance-detail p{
+    color: #aaaaaa;
+}
+
+.profile h2{
+    color: #000;
+    text-align: center;
+    margin-top: 90px;
+    font-weight: 500;
+}
+
+.profile i{
+    color: #aaaaaa;
+    text-align: center;
+}
+
+hr{
+    margin-top: 20px;
+    border:1px solid #aaaaaa;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    color: #000;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.bg .details:first-child{
+    margin-top: 30px;
+}
+
+.details i{
+    color: #000;
+    margin-right: 5px;
+}
+
+.icon{
+    color: #000;
+    display: flex;
+    padding: 10px 30px;
+    border: 1px solid #aaaaaa;
+    margin: 10px 20px 10px 0px;
+    border-radius: 20px;
+}
+
+.bg-icon{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 900px){
+    .bg-detail{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .pic{
+        right: 265px;
+    }
+
+    .profile{
+        width: 100%;
+        height: 140vh;
+    }
+    .bg-profile{
+        height: fit-content;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .bg-gradient{
+        height: max-content;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .bg-profile{
+        width: 100%;
+        height: fit-content;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .bg-gradient{
+        height: max-content;
+    }
+
+    .bg-gradient{
+        padding: 60px 60px;
+    }
+
+    .bg-detail{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .profile{
+        width: 100%;
+        height: 160vh;
+    }
+
+    .pic{
+        right: 130px;
+    }
+
+    
+}
